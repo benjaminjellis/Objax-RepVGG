@@ -101,7 +101,7 @@ Training examples will be provided soon
 @software{objax-repvgg
     titile = {Objax-RepVGG},
     author = {Benjamin Ellis},
-    url    = {ADD},
+    url    = {https://github.com/benjaminjellis/Objax-RepVGG},
     year   = {2021}
 }
 ```
