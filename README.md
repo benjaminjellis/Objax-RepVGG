@@ -2,7 +2,7 @@
 
 An Objax (https://github.com/google/objax) implementation of RepVGG models based on the official PyTorch implementation (https://github.com/DingXiaoH/RepVGG)
 
-Weights for models can be found here: TODO
+Weights for models can be found here: https://drive.google.com/drive/folders/1mW3qbCpe9CMe0MLx_0BLVBAC7GbI5G6z?usp=sharing
 
 ## Abstract (taken from https://arxiv.org/abs/2101.03697)
 We present a simple but powerful architecture of convolutional neural network, which has a VGG-like inferencetime body composed of nothing but a stack of 3 × 3 convolution and ReLU, while the training-time model has a
