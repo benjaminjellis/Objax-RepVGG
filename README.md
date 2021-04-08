@@ -25,6 +25,7 @@ To convert this model to inference / deploy architecture
 
 ```python
 from RepVGG import convert
+
 deploy_model = convert(model = train_model)
 ```
 
@@ -61,7 +62,7 @@ model = create_RepVGG_A0(deploy = True)
 
 @objax.Function.with_vars(model.vars())
 def predict(x):
-    return F.softmax(model(x, training = True), axis = 1)
+    return F.softmax(model(x, training = False), axis = 1)
 
 predict = objax.Jit(predict)
 
