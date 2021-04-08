@@ -13,7 +13,7 @@ to the best of our knowledge. On NVIDIA 1080Ti GPU,
 RepVGG models run 83% faster than ResNet-50 or 101%
 faster than ResNet-101 with higher accuracy and show favorable accuracy-speed trade-off compared to the stateof-the-art models like EfficientNet and RegNet.
 
-##Usage
+## Usage
 
 To create a model with train architecture  
 ```python
@@ -45,7 +45,7 @@ objax.io.load_var_collection("path/to/RepVGG-A0-Train.npz", model.vars())
 deploy_model = convert(model, save_path='RepVGG-A0-deploy.npz')
 # do what you want with your deploy model
 ```
-##JITing
+## JITing
 
 JIT can be used in the normal way e.g. for inference 
 
@@ -82,13 +82,13 @@ print(((sum(times[1:])/len(times[1:]) - times[0])/ times[0])*100)
 # gets you on average ~99.97% speed up (on cpu)
 ```
 
-##Contribution 
+## Contribution 
 Please feel free to raise PRs or issues to fix any bugs or to address any concerns 
 
-##In Progress
+## In Progress
 Training examples will be provided soon
 
-##Citations:
+## Citations:
 ```bibtex
 
 @ARTICLE{ding2021repvgg,
